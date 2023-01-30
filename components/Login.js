@@ -1,7 +1,26 @@
+import { useRef } from 'react';
+
 import styles from '../styles/Login.module.css';
 import Link from 'next/link';
 
-export default function Login(){
+export default function Login(props){
+
+    const emailInputRef = useRef();
+    const passwordInputRef = useRef();
+
+    function submitHandler(event){
+        event.preventDefault();
+
+        const enteredEmail = emailInputRef.current.value;
+        const enteredPassword = passwordInputRef.current.value;
+    
+        const loginData = {
+            emailAddress: enteredEmail,
+            password: enteredPassword
+        }
+
+        props.onAddLogin(loginData);
+    }
 
     return(
         <div className={styles.wholePage}>
@@ -11,17 +30,17 @@ export default function Login(){
                 <h2>User Login</h2>
                 <p className={styles.text}>Please enter your credentials to login.</p>
 
-                <form action="/api/loginForm" method="POST">
+                <form onSubmit={submitHandler}>
                     <div className={styles.loginForm}>
                         <div className={styles.form}>
                             <p>Email address </p>
-                            <input type="text" name="email" placeholder="alvin@gmail.com"
+                            <input type="text" name="email" ref={emailInputRef} placeholder="alvin@gmail.com"
                             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
                         </div>
                         
                         <div className={styles.form}>
                             <p>Password </p>
-                            <input type="password" name="password" required />
+                            <input type="password"  ref={passwordInputRef} name="password" required />
                         </div>
 
                         <div className={styles.submitBtn}>

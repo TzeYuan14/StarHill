@@ -16,10 +16,6 @@ async function handler(req, res){
             return res.json({error: "User is not found"});
         }
 
-        else{
-            res.redirect('/home');
-        }
-
         client.close();
     }
 }
