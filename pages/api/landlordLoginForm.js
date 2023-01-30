@@ -1,5 +1,6 @@
 import { MongoClient } from 'mongodb';
 
+
 async function handler(req, res){
     if(req.method === 'POST'){
         const {email, password} = req.body;
@@ -14,10 +15,6 @@ async function handler(req, res){
 
         if(!result){
             return res.json({error: "Landlord account is not found"});
-        }
-
-        else{
-            res.redirect('/landlordMainPage/mainPage');
         }
 
         client.close();
