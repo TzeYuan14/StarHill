@@ -1,0 +1,44 @@
+.backgroundImg{   
+    position: relative;
+    object-fit: cover;     /*without streching*/
+    filter: brightness(80%);
+    margin-top: 2%;
+    width: 100%;
+}
+
+.rectangleForm{
+    position: absolute;
+    width: 45%;
+    height: 135vh;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 10px 10px rgb(0 0 0 / 0.5);
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+    top: 35%;
+    left: 28%;
+}
+
+.rectangleForm h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 7px 0;
+}
+
+.whiteline{
+    border: 0.1px solid #000000;
+}
+
+.control{
+    background-color: rgb(42,124,111);
+    border-radius: 5px;
+    color: white;
+    margin-top: 2%;
+    width: 12vw;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+

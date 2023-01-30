@@ -1,0 +1,81 @@
+.wholePage{
+    background: linear-gradient(119deg, rgba(41,134,119,1) 0%, rgba(80,173,158,1) 52%, rgba(79,205,185,1) 100%);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 99.8vh;
+    padding-top: 0.1%;
+}
+
+.welcome{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.5% 0;
+    font-size: 28px;
+}
+
+.login{
+    background-color: white;
+    border: 2px solid rgb(42,124,111);
+    border-radius: 5px;
+    width: 40%;
+    height: 80vh;
+    margin-left: 30%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.login h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
+}
+
+.login .text{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.loginForm{
+    padding-left: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    padding: 6px 0;
+}
+
+.form input{
+    border: 1px solid #000;
+    margin-top: 3px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 73%;
+}
+
+.submitBtn{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.submitBtn input[type=submit]{
+    background-color: rgb(42,124,111);
+    border: 2px solid rgb(42,124,111);
+    border-radius: 4px;
+    color:white;
+    font-size: 16px;
+    padding: 10px;
+    width: 77.5%;
+    cursor: pointer;
+}
+
+.account{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(42,124,111);
+    cursor: pointer;
+}

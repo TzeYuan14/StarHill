@@ -1,0 +1,75 @@
+.mainPage h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.split{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 24.2%;
+  height: 58vh;
+  margin: 0 30px;
+  border-radius: 7px;
+  text-align: left;
+}
+
+.card h4{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 26.3%;
+    height: 58vh;
+    margin: 0 30px;
+    border-radius: 7px;
+    text-align: left;
+}
+
+.card2 h4{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-bottom: 27px;
+}
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  height: 58vh;
+  margin: 3% 37%;
+  border-radius: 7px;
+  text-align: left;
+}
+
+.card3 h4{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-bottom: 27px;
+}
+
+.link a:link, .link a:visited{
+  margin-left: 30px;
+  background-color: #2a7c6f;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.link a:hover, .link a:active {
+    background-color: #179c86;
+  }

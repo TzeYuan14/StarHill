@@ -1,0 +1,158 @@
+.signout{
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid rgb(42,124,111);
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 1%;
+  width: 8%;
+  height: 5vh;
+  color: rgb(42,124,111);
+}
+
+.title{
+  position: absolute;
+  font-size: 60px;
+  font-weight: 400;
+  color: aliceblue;
+  top: 30%;
+  left: 28%;
+
+  z-index: 1;
+}
+
+.titleSmall{
+  position: absolute;
+  top: 45%;
+  left: 41%;
+  font-size: 40px;
+  font-weight: 400;
+  color: aliceblue;
+
+  z-index: 1;
+} 
+
+.whiteline{
+  position: absolute;
+  top: 65%;
+  left: 18%;
+  border: 1.5px solid white;
+  width: 62%;
+
+  z-index: 1;
+}
+
+.titleText{
+  border: 0px solid white;
+  width: 64%;
+  text-align: center;
+  line-height: 2em;
+  position: absolute;
+  top: 74%;
+  left: 18%;
+  color: white;
+  font-size: 20px;
+
+  z-index: 1;
+}
+
+.img1{
+   background-image: url("../public/img/city.jpg");
+   height: 90vh;
+   width: 100%;
+   background-size: cover;
+   background-position: top 35% right 0;
+   filter: brightness(45%);
+   margin-top: 50px;
+  
+}
+
+.sectionParagraph{
+  background-color: rgb(42,124,111);
+  padding: 3%;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 17%;
+  font-weight: 400;
+}
+
+.paragraph1{
+  font-size: 45px;
+  margin-top: -40px;
+}
+
+.paragraph2{
+  padding: 5px 0;
+  margin-top: -18px;
+  font-size: 20px;
+}
+
+.paragraph3{
+  padding: 20px 0;
+  line-height: 1.8em;
+  font-size: 18px;
+}
+
+.sectionServices{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img2{
+  background-image: url(https://www.elliott.org/wp-content/uploads/shutterstock_182005337.jpg);
+  height: 90vh;
+  width: 50%;
+  background-size: cover;
+  background-position: top 35% right 65%;
+}
+
+.services{
+  padding: 0 10%; 
+  color: rgb(42,124,111);
+}
+
+.services .paragraph1{
+  padding: 30px 70px 30px 0px;
+  margin-bottom: -65px;
+}
+
+.services .paragraph2{
+  padding: 8px 26px;
+}
+
+.subtitles{
+  font-size: 25px;
+  padding: 20px;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(211, 255, 248);
+  background-color: black;
+}
+
+.contact .paragraph1{
+  padding: 100px 0 40px 0;
+}
+
+.contact .paragraph2{
+  text-align: center;
+}
+
+.info{
+  padding: 15px 0;
+}

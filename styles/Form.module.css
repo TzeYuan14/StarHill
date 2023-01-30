@@ -1,0 +1,146 @@
+.logo h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #12c039;
+}
+
+.starhill{
+    background-color: #12c039;
+    padding: 0 3px;
+    color: white;
+}
+
+.greenline{
+    border: 0.1px solid #12c039;
+    width: 60%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 3px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #2a7c6f;
+    padding-left: 25px;
+    padding-right: 23px;
+}
+
+.line{
+    border-bottom: 2px solid #2a7c6f;
+    padding-bottom: 12px;
+}
+
+.backgroundImg{   
+    position: relative;
+    object-fit: cover;     /*without streching*/
+    filter: brightness(80%);
+    margin-top: 2%;
+    width: 100%;
+}
+
+.rectangleForm{
+    position: absolute;
+    width: 45%;
+    height: 180vh;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 10px 10px rgb(0 0 0 / 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    top: 35%;
+    left: 28%;
+}
+
+.rectangleForm h2{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 7px 0;
+}
+
+.whiteline{
+    border: 0.1px solid #ffffff;
+}
+
+
+.form{
+    margin-left: 7%;
+    margin-top: 4%;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.form input{
+    border: 1px solid #000;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 10px;
+    width: 83%;
+}
+
+.form input[type="text"]{
+    font-size: 16px;
+}
+
+.formLeftRight{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-top: 4%;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.formLeftRight input[type="text"]{
+    font-size: 16px;
+}
+
+.formLeft input{
+    border: 1px solid #000;
+    margin-top: 4%;
+    border-radius: 5px;
+    padding: 10px;
+    width: 110%;
+}
+
+.formRight{
+    margin-right: 20.5%;
+}
+
+.formRight input{
+    border: 1px solid #000;
+    margin-top: 4%;
+    border-radius: 5px;
+    padding: 10px;
+    width: 110%;
+}
+
+.form textarea{
+    border: 1px solid #000;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 10px;
+    width: 83%;
+    height: 35vh;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.submitBtn input[type="submit"]{
+    margin-left: 7%;
+    margin-top: 6%;
+    background-color: #2a7c6f;
+    border: 2px solid #2a7c6f;
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    width: 80%;
+    cursor: pointer;
+}
