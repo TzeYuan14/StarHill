@@ -16,7 +16,7 @@ return (
 
             <nav className={styles.navbar}>
             <ul>
-                <li><Link href="/">Home</Link></li>
+                <li><Link href="/home">Home</Link></li>
                 <li className={styles.line}><Link href="/apartmentList">Apartment Listing</Link></li>
                 <li><Link href="/contactingService">Contacting Service</Link></li>
                 <li><Link href="/complaintForm" >Complaint Form</Link></li>
